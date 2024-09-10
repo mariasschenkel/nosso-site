@@ -3,3 +3,22 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+header{
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+}
+article{
+    width:60 ;
+    height: 700px;
+    width: 75%;
+    background-color: black;
+    margin-top: 10px;
+}
+aside{
+    width: 700px;
+    height: 15%;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-right: 10px;
+}
