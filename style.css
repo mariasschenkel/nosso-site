@@ -5,8 +5,10 @@
 }
 header{
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: grey;
+    background-image: url(./imagem.png);
+    background-repeat: no-repeat;
 }
 .grande{
     width: 66%;
@@ -14,7 +16,6 @@ header{
     background-color: grey;
     margin-top: 2%;
     display: block;
-    
 }
 .esq{
     width: 32%;
@@ -51,4 +52,34 @@ footer{
     margin-top: 2%;
     position: relative;
     top: 348px;
+}
+h1{
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+.dissecacao{
+    width: 186px;
+    position: relative;
+    top: 2px;
+    left: 3px;
+    float: left;
+}
+p{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.macros{
+    position: relative;
+    top: 2px;
+    left: 1px;
+    width: 403px;
+}
+.tecido{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 100px;
 }
