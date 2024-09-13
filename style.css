@@ -6,21 +6,39 @@
 header{
     width: 100%;
     height: 300px;
-    background-color: grey;
-    background-image: url(./imagem.png);
+    background-color: black;
+    background-image: url(./anatomia\ humana\ cortada.psd);
     background-repeat: no-repeat;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .grande{
     width: 66%;
     height: 320px;
-    background-color: grey;
+    background-color: black;
     margin-top: 2%;
     display: block;
 }
 .esq{
     width: 32%;
     height: 320px;
-    background-color: grey;
+    background-color: black;
     margin-top: 2%;
     display: block;
     float: left;
@@ -28,7 +46,7 @@ header{
 .dir{
     width: 32%;
     height: 320px;
-    background-color: grey;
+    background-color: black;
     margin-top: 2%;
     margin-left: 2%;
     display: block;
@@ -39,7 +57,7 @@ aside{
     float: left;
     width: 32%;
     height: 665px;
-    background-color: grey;
+    background-color: black;
     margin-top: 2%;
     margin-left: 2%;
     position: relative;
@@ -48,7 +66,7 @@ aside{
 footer{
     width: 100%;
     height: 50px;
-    background-color: grey;
+    background-color: black;
     margin-top: 2%;
     position: relative;
     top: 348px;
@@ -57,6 +75,7 @@ h1{
     position: relative;
     top: 2px;
     left: 3px;
+    color: white;
 }
 .dissecacao{
     width: 186px;
@@ -69,6 +88,7 @@ p{
     position: relative;
     left: 10px;
     top: 5px;
+    color: white;
 }
 
 .macros{
@@ -81,5 +101,20 @@ p{
     position: relative;
     top: 2px;
     left: 2px;
-    width: 100px;
+    width: 168px;
+}
+body{
+    background-color: red;
+}
+.celula{
+    position: relative;
+    top: -30px;
+    left: 5px;
+    width: 218px;
+}
+.nervo{
+    position: relative;
+    top: 18px;
+    left: 50px;
+    width: 292px;
 }
