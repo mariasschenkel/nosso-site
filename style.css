@@ -4,21 +4,117 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header{
-    height: 200px;
     width: 100%;
-    background-color: gray;
-}
-article{
-    width:60 ;
-    height: 700px;
-    width: 75%;
+    height: 300px;
     background-color: black;
-    margin-top: 10px;
+    background-image: url(./anatomia\ humana\ cortada.psd);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.grande{
+    width: 66%;
+    height: 320px;
+    background-color: black;
+    margin-top: 2%;
+    display: block;
+}
+.esq{
+    width: 32%;
+    height: 320px;
+    background-color: black;
+    margin-top: 2%;
+    display: block;
+    float: left;
+}
+.dir{
+    width: 32%;
+    height: 320px;
+    background-color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: block;
+    float: left;
 }
 aside{
-    width: 700px;
-    height: 15%;
-    background-color: aqua;
-    margin-top: 10px;
-    margin-right: 10px;
+    display: block;
+    float: left;
+    width: 32%;
+    height: 665px;
+    background-color: black;
+    margin-top: 2%;
+    margin-left: 2%;
+    position: relative;
+    top: -345px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 2%;
+    position: relative;
+    top: 348px;
+}
+h1{
+    position: relative;
+    top: 2px;
+    left: 3px;
+    color: white;
+}
+.dissecacao{
+    width: 186px;
+    position: relative;
+    top: 2px;
+    left: 3px;
+    float: left;
+}
+p{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    color: white;
+}
+
+.macros{
+    position: relative;
+    top: 2px;
+    left: 1px;
+    width: 403px;
+}
+.tecido{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 168px;
+}
+body{
+    background-color: red;
+}
+.celula{
+    position: relative;
+    top: -30px;
+    left: 5px;
+    width: 218px;
+}
+.nervo{
+    position: relative;
+    top: 18px;
+    left: 50px;
+    width: 292px;
 }
