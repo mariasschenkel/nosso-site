@@ -118,3 +118,16 @@ body{
     left: 50px;
     width: 292px;
 }
+.sistema{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin-bottom: 5px
+}
+.psis{
+    width: 400px;
+    position: relative;
+    text-align: justify;
+    left: 2px;
+    margin-bottom: 15px;
+}
