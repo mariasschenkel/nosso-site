@@ -69,7 +69,7 @@ aside{
     float: left;
     border-radius:20px;
     width: 32%;
-    height: 665px;
+    height: 800px;
     box-shadow: 10px 10px 45px 2px rgb(0, 0, 0);
     margin-top: 2%;
     margin-left: 2%;
@@ -82,7 +82,7 @@ footer{
     background-color: rgb(255, 255, 255);
     margin-top: 2%;
     position: relative;
-    top: 348px;
+    top: 470px;
 }
 h1{
     position: relative;
@@ -147,10 +147,21 @@ body{
     position: relative;
     text-align: justify;
     left: 10px;
+    top: -15px;
     margin-bottom: 15px;
     text-align: justify;
+
 }
 .h1{
     position: relative;
     left: 190px;
+}
+.img1{
+position: relative;
+top: -20px;
+left: 20px;
+}
+.img2{
+position: relative;
+
 }
