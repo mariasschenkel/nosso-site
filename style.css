@@ -161,7 +161,15 @@ position: relative;
 top: -20px;
 left: 20px;
 }
-.img2{
+footer img{
 position: relative;
-
+top: -797px;
+left: 503px;
+}
+footer a{
+    position: relative;
+    top: -814px;
+    left: 499px;
+    text-decoration: none;
+    color: black;
 }
